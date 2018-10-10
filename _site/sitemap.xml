@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://0.0.0.0:4000/hyde/</loc>
-<lastmod>2018-10-07T07:49:16-05:00</lastmod>
+<lastmod>2018-10-10T11:32:49-05:00</lastmod>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/hydejack/</loc>
-<lastmod>2018-10-07T07:49:16-05:00</lastmod>
+<lastmod>2018-10-10T11:32:49-05:00</lastmod>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/docs/</loc>
@@ -18,10 +18,10 @@
 <loc>http://0.0.0.0:4000/about/</loc>
 </url>
 <url>
-<loc>http://0.0.0.0:4000/projets/advanced/</loc>
+<loc>http://0.0.0.0:4000/docs/advanced/</loc>
 </url>
 <url>
-<loc>http://0.0.0.0:4000/docs/advanced/</loc>
+<loc>http://0.0.0.0:4000/projets/advanced/</loc>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/projets/basics/</loc>
@@ -36,10 +36,10 @@
 <loc>http://0.0.0.0:4000/projets/build/</loc>
 </url>
 <url>
-<loc>http://0.0.0.0:4000/projets/config/</loc>
+<loc>http://0.0.0.0:4000/docs/config/</loc>
 </url>
 <url>
-<loc>http://0.0.0.0:4000/docs/config/</loc>
+<loc>http://0.0.0.0:4000/projets/config/</loc>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/projets/ecqcblw/</loc>

@@ -1,7 +1,6 @@
 ---
-menu: true
-order: 0
 image: /assets/img/blog/hydejack-8.png
+cover: true
 ---
 
 # Qui suis-je
