@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Qui suis-je
+title: Présentation
 cover: true
 menu: true
 order: 0
@@ -16,6 +16,15 @@ order: 0
 Après un début de carrière dans la Business Intelligence (BI) et une réorientation heureuse dans le développement web, je poursuit mon chemin dans le développement web et les technologies libres.
 
 A la suite de mes 3 ans au Département de Maine-et-Loire, je crée ma propre entreprise pour vous proposer mes services.
+
+# Mes services
+
+Voici des exemples de missions que j'ai réalisé :
+
+* Intégration d'une cartographie Google Maps, avec point et marqueurs
+* Intégration d'un template HTML/CSS/JS statique pour le rendre dynamique avec le CMS Typo3
+* Configuration du CMS Typo3 pour une authentification des utilisateurs intégré au système informatique d'une entreprise (intranet)
+* Installation et configuration du puissant moteur de recherche Solr pour une utilisation avec Typo3
 
 # Compétences
 
@@ -38,13 +47,3 @@ Réseau : Apache, Nginx, Traefik
 Container : Docker, docker-compose
 
 Automatisation : Ansible
-
-# Mes services
-
-Voici des exemples de missions que j'ai réalisé :
-
-* Intégration d'une cartographie Google Maps, avec point et marqueurs
-* Intégration d'un template HTML/CSS/JS statique pour le rendre dynamique avec le CMS Typo3
-* Configuration du CMS Typo3 pour une authentification des utilisateurs intégré au système informatique d'une entreprise (intranet)
-* Installation et configuration du puissant moteur de recherche Solr pour une utilisation avec Typo3
-

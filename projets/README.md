@@ -11,9 +11,9 @@ permalink: /projets/
 
 Voici des exemples de réalisations.
 
-* [Hippymood]{:.heading.flip-title} --- Projets lié à la musique.
-* [Minitel]{:.heading.flip-title} --- Contrôler sa raspberry pi depuis un minitel.
-* [Ecqcblw]{:.heading.flip-title} --- Projet pour connaître LA réponse à LA question ;)
+* [Hippymood]{:.heading.flip-title} --- Appli web de lecture de musique
+* [Minitel]{:.heading.flip-title} --- Utiliser un Minitel comme affichage et clavier d'une Raspberry Pi
+* [Ecqcblw]{:.heading.flip-title} --- Projet clin d'oeil pour connaître LA réponse à LA question ;)
 {:.related-posts.faded}
 
 [Hippymood]: hippymood.md
