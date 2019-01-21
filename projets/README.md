@@ -9,13 +9,12 @@ permalink: /projets/
 
 # Projets
 
-Voici des exemples de réalisations.
+Voici des exemples de projets personnels :
 
-* [Hippymood]{:.heading.flip-title} --- Appli web de lecture de musique
+* [Hippy Mood]{:.heading.flip-title} --- Appli web de lecture de musique
 * [Minitel]{:.heading.flip-title} --- Utiliser un Minitel comme affichage et clavier d'une Raspberry Pi
-* [Ecqcblw]{:.heading.flip-title} --- Projet clin d'oeil pour connaître LA réponse à LA question ;)
+
 {:.related-posts.faded}
 
-[Hippymood]: hippymood.md
+[Hippy Mood]: hippymood.md
 [Minitel]: minitel.md
-[Ecqcblw]: ecqcblw.md

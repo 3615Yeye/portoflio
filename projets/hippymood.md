@@ -1,18 +1,24 @@
 ---
 description: >
-  This chapter shows how to upgrade Hydejack to a newer version. The method depends on how you've installed Hydejack.
+  Appli web de lecture de musique, organisé en playlist par humeur.
 hide_description: true
 ---
 
-# Hippymood
+# Hippy Mood
 
-J'ai décidé de créer ma propre appli web de lecture de musique n'ayant pas trouvé de lecteur me permettant de répondre à ces critères :
+Appli web de lecture de musique, organisé en playlist par humeur.
 
-- Générer des playlists aléatoires avec des artistes variés
+![](/assets/img/Hippymood.png)
+
+Pas complètement satisfait des différents lecteurs de musique que j'ai pu essayer, je voulais un lecteur répondant à ces critères :
+
+- Simplicité d'usage
+- Lecture en aléatoire de playlist avec une variété d'artistes
 - Éviter les transitions abruptes à l'intérieur d'une playlist, mais aussi au passage à une autre playlist
-- Être simple d'usage
-- Et plus encore selon le temps et possiblités
+- Et plus encore selon le temps et possibilités
 
 Pour joindre l'utile à l'agréable je me forme en même temps aux technologies web repérées lors de ma veille technologique.
 
-[Lien vers la démo](https://hippymood.3615yeye.info){:target="_blank"}
+[Lien vers la démo](https://hippymood.3615yeye.info){:target="_blank"} (pas responsive pour le moment)
+
+[Lien vers le code source sur Github](https://github.com/3615Yeye/Hippymood){:target="_blank"}

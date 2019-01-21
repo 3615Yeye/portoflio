@@ -15,8 +15,8 @@ A la suite de 3 années au Département de Maine-et-Loire, je crée ma propre en
 Voici des exemples de missions que j'ai réalisé :
 
 * Développement de sites et d'extensions Typo3
-* Intégration d'un template HTML/CSS/JS statique pour le rendre dynamique avec le CMS Typo3
 * Administration et configuration d'extension pour des sites Typo3 
+* Intégration d'un template HTML/CSS/JS statique pour le rendre dynamique avec le CMS Typo3
 * Développement d'interface web dynamique avec la librairie Vue.js
 
 # Compétences
@@ -32,6 +32,8 @@ Javascript : Node.js, Express
 ## Front-end
 
 Javascript : jQuery, Vue.js, Webpack
+
+API : Google Maps API v3
 
 ## Administration Linux
 
