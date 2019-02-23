@@ -243,6 +243,7 @@ exclude:
   - _js
   - _plugins
   - .sass-cache
+  - docker-compose.yml
 include:
   - LICENSE.md
 

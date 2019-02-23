@@ -8,7 +8,7 @@ hide_description: true
 
 Appli web de lecture de musique, organisé en playlist par humeur.
 
-![](/assets/img/Hippymood.png)
+![Capture d'écran d'écoute de musique avec Hippy Mood](/assets/img/Hippymood.png){:data-size="627x641"}
 
 Pas complètement satisfait des différents lecteurs de musique que j'ai pu essayer, je voulais un lecteur répondant à ces critères :
 

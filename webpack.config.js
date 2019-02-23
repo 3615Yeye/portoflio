@@ -3,7 +3,7 @@ const { resolve } = require("path");
 
 const rxPaths = require("rxjs/_esm5/path-mapping");
 
-const { BannerPlugin, EnvironmentPlugin } = require("webpack");
+const { BannerPlugin, EnvironmentPlugin, ProvidePlugin } = require("webpack");
 
 const merge = require("webpack-merge");
 const {
@@ -38,6 +38,12 @@ module.exports = merge(
       path: resolve("./assets/js"),
       filename: `${filename}-${version}.js`,
     },
+    plugins: [
+      new ProvidePlugin({
+        PhotoSwipe: 'photoswipe',
+        PhotoSwipeUI_Default: 'photoswipe/src/js/ui/photoswipe-ui-default.js'
+      })
+    ],
     module: {
       rules: [
         {
@@ -48,6 +54,21 @@ module.exports = merge(
             babelrc: false,
           },
         },
+        {
+          test: /\.css$/,
+          use: ['style-loader', 'css-loader'],
+        },
+        {
+          test: /\.(png|svg|jpg|gif)$/,
+          use: [
+            {
+              loader: "file-loader",
+              options: {
+                outputPath: "/assets/img"
+              }
+            }
+          ]
+        }
       ],
     },
     resolve: {

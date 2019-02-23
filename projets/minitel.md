@@ -10,7 +10,7 @@ hide_description: true
 
 Le Minitel est de retour pour contrôler une Raspberry Pi avec son clavier et son écran.
 
-![Photo de l'avant du Minitel avec le message "I'll Be Back"](/assets/img/Minitel_Side.jpg)
+![Photo du Minitel en attente d'une commande](/assets/img/Minitel_Side.jpg){:data-size="1800x1200"}
 
 Un grand merci aux différentes personnes qui ont partagé au fil des années leurs expérimentations et succès dans l'utilisation du Minitel avec une Raspberry. Voici les deux principales sources qui m'ont permis d'y arriver :
 

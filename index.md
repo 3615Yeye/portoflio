@@ -8,7 +8,7 @@ order: 0
 
 Après un début de carrière dans la Business Intelligence (BI) et une réorientation heureuse dans le développement web, je poursuit mon chemin dans le web et les technologies libres.
 
-A la suite de 3 années au Département de Maine-et-Loire, je crée ma propre entreprise pour vous proposer mes services.
+A la suite de 3 années au Département de Maine-et-Loire, je deviens indépendant pour vous proposer mes services.
 
 # Services
 

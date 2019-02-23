@@ -26,12 +26,14 @@ RE_DATAURL = /.*src\s*=\s*["']\s*data:.*["']/
 RE_IGNORE  = /(re|data)-ignore/
 
 REPLACEMENT = '
-  <hy-img root-margin="512px" %{attrs}>
-    <noscript><img data-ignore %{attrs}/></noscript>
-    <span class="loading" slot="loading" hidden>
-      <span class="icon-cog"></span>
-    </span>
-  </hy-img>'
+    <a class="pswp-item no-push-state no-mark-external" href="javascript:void(0)">
+      <hy-img root-margin="512px" %{attrs}>
+        <noscript><img data-ignore %{attrs}/></noscript>
+        <span class="loading" slot="loading" hidden>
+          <span class="icon-cog"></span>
+        </span>
+      </hy-img>
+    </a>'
 
 if ENV['JEKYLL_ENV'] == 'production' then
   REPLACEMENT.gsub!(/\n+/, '')

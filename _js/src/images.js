@@ -16,12 +16,38 @@
 
 import "core-js/fn/array/for-each";
 
+import { Observable } from "rxjs";
+
 import { HyImageElement, WEBCOMPONENT_FEATURE_TESTS } from "hy-img/src/webcomponent";
+
+import PhotoSwipeCss from "photoswipe/dist/photoswipe.css";
+import PhotoSwipeUI_DefaultCssSkin from "photoswipe/dist/default-skin/default-skin.css";
 
 import { hasFeatures } from "./common";
 
+import { initPhotoSwipeFromDom } from "./photoswipe";
+
 if (hasFeatures(WEBCOMPONENT_FEATURE_TESTS)) {
   window.customElements.define("hy-img", HyImageElement);
+
+  // Initial PhotoSwipe init
+  initPhotoSwipeFromDom('article.page');
+
+  // PhotoSwipe init for AJAX loaded pages
+  const after$ = Observable.create(observer => {
+    const pushStateEl = document.getElementsByTagName("hy-push-state")[0];
+
+    const eventListener = _ => {
+      observer.next(1);
+    }
+    pushStateEl.addEventListener('hy-push-state-after', eventListener);
+
+    return () => {
+      pushStateEl.removeEventListener('hy-push-state-after', eventListener);
+    };
+  });
+
+  after$.subscribe(() => initPhotoSwipeFromDom('article.page'));
 } else {
   // If the necessary features aren't available, use the fact that we have `noscript` fallbacks
   // that are immediate children of the component, and add the fallback to the DOM
