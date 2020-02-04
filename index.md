@@ -15,6 +15,8 @@ A la suite de 3 années au Département de Maine-et-Loire, je deviens indépenda
 Voici des exemples de missions que j'ai réalisé :
 
 * Développement de sites et d'extensions Typo3
+* Intégration responsive à partir de maquette Photoshop
+* Développement d'un thème WordPress léger, pour améliorer le SEO
 * Administration et configuration d'extension pour des sites Typo3 
 * Intégration d'un template HTML/CSS/JS statique pour le rendre dynamique avec le CMS Typo3
 * Développement d'interface web dynamique avec la librairie Vue.js
@@ -25,7 +27,7 @@ Principalement développeur backend, les besoins de mon employeur et ma curiosit
 
 ## Back-end
 
-PHP : CMS Typo3
+PHP : CMS Typo3, CMS WordPress
 
 Javascript : Node.js, Express
 

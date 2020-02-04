@@ -64,6 +64,7 @@ echo 'Test affichage minitel' > /dev/ttyUSB0
 ```
 
 [Photo du résultat d'un echo]
+![Photo bis de test PhotoSwipe](/assets/img/Minitel_Front_2_SD2.jpg){:data-size="1800x1200"}
 
 ## Software
 
